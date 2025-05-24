@@ -12,9 +12,7 @@ The recommendation system focuses on leveraging the characteristics and features
 - [Feature Extraction](#feature-extraction)
 - [Similarity Calculation](#similarity-calculation)
 - [Web App](#web-app)
-- [Usage](#usage)
 - [Key Learnings](#key-learnings)
-- [Future Goals](#future-goals)
 
 
 ## Data Cleaning
@@ -40,26 +38,7 @@ The project includes a web app created with the help of the pickle library and S
 ![image](https://github.com/atharv-patil/anime-recommendation-system/assets/83455141/210c9e52-a98a-478e-98bc-007ea801b886)
 
 
-
 https://github.com/atharv-patil/anime-recommendation-system/assets/83455141/151ca033-11b0-4a6d-a51e-0c8f426b9d8a
-
-
-
-## Usage
-
-To use this Anime Recommendation System, follow these steps:
-
-1. Clone the repository:
-```git clone https://github.com/atharv-patil/anime-recommendation-system.git```
-2. Navigate to the project directory:
-```cd app```
-3. Install the required dependencies:
-```pip install -r requirements.txt```
-4. Run the web app:
-```streamlit run app.py```
-5. Access the web app by opening the provided URL in your web browser.
-6. In the web app, select one anime from the provided options.
-7. Click the "Show Recommendations" button to generate the top 5 recommended anime based on your selection.
 
 ## Key Learnings
 
@@ -69,15 +48,3 @@ Through this project, I gained valuable insights into the following concepts:
 - CountVectorizer for feature extraction
 - Cosine distance and similarity
 - Text preprocessing using PorterStemmer
-## Future Goals
-
-Future goals for this project:
-- Incorporate additional features and attributes from the dataset to enhance the recommendation model's accuracy and coverage.
-- Enhance the web app's user interface and interactivity to provide a more engaging and immersive experience for users.
-- Explore advanced recommendation algorithms, such as collaborative filtering or deep learning approaches, to improve the quality of recommendations.
-- Deploy the web app to a cloud platform to make it accessible globally.
-
-
-
-
-
