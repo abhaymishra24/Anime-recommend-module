@@ -1,5 +1,5 @@
 # Anime Recommendation System
-![image]() 
+![image](https://github.com/abhaymishra24/Anime-recommend-module/blob/main/anime_banner.png) 
 
 Anime Recommendation System is a content-based recommendation system that provides personalized anime recommendations based on user preferences. It utilizes a dataset scraped from [Anime Planet](https://www.anime-planet.com/) and employs various techniques such as data cleaning, text preprocessing, and feature extraction to create a content representation for each anime.<br>
 Using the content representation of the selected anime, the recommendation system calculates the similarity between the selected anime and other anime in the [dataset](https://github.com/atharv-patil/anime-recommendation-system/blob/main/anime.csv). It then generates a list of the top 5 recommended anime based on their similarity scores.<br>
