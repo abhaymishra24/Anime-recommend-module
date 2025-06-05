@@ -27,19 +27,15 @@ The sklearn.feature_extraction.text module's CountVectorizer was employed to ext
 ## Similarity Calculation - 
 Using the cosine_similarity function from sklearn.metrics.pairwise, the similarity between two anime rows was calculated. Since the recommendation system operates in a multidimensional space, cosine similarity is preferred over Euclidean distance. The resulting similarity scores range between 0 and 1.
 
-## Web App
-
+## Web App - 
 The project includes a web app created with the help of the pickle library and Streamlit framework. The serialized data and similarity matrix were loaded using pickle to enable real-time recommendations based on user input.
 
 ![image](https://github.com/atharv-patil/anime-recommendation-system/assets/83455141/210c9e52-a98a-478e-98bc-007ea801b886)
 
-
 https://github.com/atharv-patil/anime-recommendation-system/assets/83455141/151ca033-11b0-4a6d-a51e-0c8f426b9d8a
 
 ## Key Learnings
-
-Through this project, I gained valuable insights into the following concepts:
-
+##### Through this project, I gained valuable insights into the following concepts:
 - Bag of Words
 - CountVectorizer for feature extraction
 - Cosine distance and similarity
